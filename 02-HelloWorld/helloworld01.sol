@@ -13,3 +13,10 @@ contract Helloworld{
  
 
 }
+
+
+contract helloworld2 {
+    function sayhelloWorld() public pure returns (string memory){
+        return "hello world!";
+    }
+}
