@@ -7,6 +7,10 @@ contract Function {
     function returnMany() public pure returns (uint256, bool, uint256) {
         return (1, true, 2);
     }
+    //   // Function to push a value to the array
+    // function pushToArray(uint256 value) public {
+    //     arr.push(value); // Append value to the dynamic array
+    // }
 
     // Named return values
     function named() public pure returns (uint256 x, bool b, uint256 y) {
